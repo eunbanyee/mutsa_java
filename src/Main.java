@@ -1,14 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        final int DAYS_IN_WEEK = 7;
-        final double PI = 3.14159;
-        final String GREETING = "Hello, world!";
+       int a = 10, b = 3;
 
-        System.out.println("Days in a week: " + DAYS_IN_WEEK);
-        System.out.println("Value of PI: " + PI);
-        System.out.println("Greeting: " + GREETING);
+       int sum = a + b;
 
-        // Error:
-        // DAYS_IN_WEEK = 8;
+        System.out.println(sum);
+
+        int difference = a-b;
+        int product = a*b;
+        int quotient = a/b;
+        int remainer = a%b;
+
+        System.out.println(difference);
+        System.out.println(product);
+        System.out.println(quotient);
+        System.out.println(remainer);
         }
     }
